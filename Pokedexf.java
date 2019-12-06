@@ -177,23 +177,41 @@ public class Pokedexf {
         }; 
         
         String[][] typeData = {
+            //Normal
+            { "No effect against: Ghost", "Not very effective against: Rock and Steel", "Super effective against: N/A", "Weak to: Fighting", "Resists: N/A", "Immune to: Ghost" },
+            //Fighting
+            { "No effect against: Ghost", "Not very effective against: Flying, Poison, Bug, Psychic, and Fairy", "Super effective against: Normal, Rock, Steel, Ice, and Dark", "Weak to: Flying, Psychic, and Fairy", "Resists: Rock, Bug, and Dark", "Immune to: N/A" },
+            //Flying
+            { "No effect against: N/A", "Not very effective against: Rock, Steel, and Electric", "Super effective against: Fighting, Bug, and Grass", "Weak to: Rock, Electric and Ice", "Resists: Fighting, Bug, and Grass", "Immune to: Ground" },
+            //Poison
+            { "No effect against: Steel", "Not very effective against: Poison, Ground, Rock, and Ghost", "Super effective against: Grass and Fairy", "Weak to: Ground and Psychic", "Resists: Fighting, Poison, Bug, Grass, and Fairy", "Immune to: N/A" },
+            //Ground
+            { "No effect against: Flying", "Not very effective against: Bug and Grass", "Super effective against: Poison, Rock, Steel, Fire and Electric", "Weak to: Water, Grass, and Ice", "Resists: Poison and Rock", "Immune to: Electric" },
+            //Rock
+            { "No effect against: N/A", "Not very effective against: Fighting, Ground, and Steel", "Super effective against: Flying, Bug, Fire, and Ice", "Weak to: Fighting, Ground, Steel, Water, and Grass", "Resists: Normal, Flying, Poison, and Fire", "Immune to: N/A" },
+            //Bug
+            { "No effect against: N/A", "Not very effective against: Fighting, Flying, Poison, Ghost, Steel, Fire, and Fairy", "Super effective against: Grass, Psychic, and Dark", "Weak to: Flying, Rock, and Fire", "Resists: Fighting, Ground, and Grass", "Immune to: N/A" },
+            //Ghost
+            { "No effect against: Normal", "Not very effective against: Dark", "Super effective against: Ghost and Psychic", "Weak to: Ghost and Dark", "Resists: Poison and Bug", "Immune to: Normal and Fighting" },
+            //Steel
+            { "No effect against: N/A", "Not very effective against: Steel, Fire, Water, and Electric", "Super effective against: Rock, Ice, and Fairy", "Weak to: Fighting, Ground, and Fire", "Resists: Normal, Flying, Rock, Bug, Steel, Grass, Psychic, Ice, Dragon, and Fairy", "Immune to: Poison" },
+            //Fire
             { "" },
+            //Water
             { "" },
+            //Grass
             { "" },
+            //Electric
             { "" },
+            //Psychic
             { "" },
+            //Ice
             { "" },
+            //Dragon
             { "" },
+            //Dark
             { "" },
-            { "" },
-            { "" },
-            { "" },
-            { "" },
-            { "" },
-            { "" },
-            { "" },
-            { "" },
-            { "" },
+            //Fairy
             { "" },
         };
         
