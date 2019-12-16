@@ -17,10 +17,15 @@ public class Pokedexf {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        String option = "";
+        
+        while (!option.equals("Exit") || !option.equals("3")) {
         Scanner kb = new Scanner (System.in);
-        System.out.println("Hello trainer! Which of my lovely features would you like to use? (Type the name of the tool)");
-        System.out.println("\t1.  Pokédex \t2.  Type Information");
-        String option = kb.nextLine();
+        System.out.println("\nHello trainer! Which of my lovely features would you like to use? (Type the name of the tool)");
+        System.out.println("\t1.  Pokédex \t2.  Type Information \t3. Exit");
+        option = kb.nextLine();
+        
         
         String[][] data = {
              { "Number 1, the Seed Pokemon.", "grass and poison", "A strange seed was planted on its back at birth. The plant sprouts and grows with this pokemon."  },
@@ -215,7 +220,9 @@ public class Pokedexf {
             { "No effect against: N/A", "Not very effective against: Poison, Steel, and Fire", "Super effective against: Fighting, Dragon, and Dark", "Weak to: Poison and Steel", "Resists: Fighting, Bug, and Dark", "Immune to: Dragon" },
         };
         
-        if (option.equals("Pokedex")) {
+        
+            
+            if (option.equals("Pokedex") || option.equals("1")) {
             System.out.println("Okay, now what is the name of the Pokemon you wish to search for?");
             String name = kb.nextLine();
             System.out.println ("Okay, what would you like to learn about this pokemon?");
@@ -1584,7 +1591,7 @@ public class Pokedexf {
         
     }
         
-        if (option.equals("Type Information")) {
+        if (option.equals("Type Information") || option.equals("2")) {
             System.out.println("Ok, now what type would you like to search for?");
             String type = kb.nextLine();
             System.out.println("Okay, now what would you like to learn about this type?");
@@ -1917,6 +1924,9 @@ public class Pokedexf {
             }
             
         }
-    
+        
+        
+        }
+        
  }
 }
