@@ -22,7 +22,7 @@ public class Pokedexf {
         
         while (!option.equals("Exit") || !option.equals("3")) {
         Scanner kb = new Scanner (System.in);
-        System.out.println("\nHello trainer! Which of my lovely features would you like to use? (Type the name of the tool)");
+        System.out.println("\nHello trainer! Which of my lovely features would you like to use?");
         System.out.println("\t1.  Pokédex \t2.  Type Information \t3. Exit");
         option = kb.nextLine();
         
@@ -209,7 +209,7 @@ public class Pokedexf {
             //Electric
             { "No effect against: Ground", "Not very effective against: Grass, Electric, and Dragon", "Super effective against: Flying and Water", "Weak to: Ground", "Resists: Flying, Steel, and Electric", "Immune to: N/A" },
             //Psychic
-            { "No effect against: Dark", "Not very effective against: Steel and Psychic", "Super effective against: Fightinf and Poison", "Weak to: Bug, Ghost, and Dark", "Resists: Fighting and Psychic", "Immune to: N/A" },
+            { "No effect against: Dark", "Not very effective against: Steel and Psychic", "Super effective against: Fighting and Poison", "Weak to: Bug, Ghost, and Dark", "Resists: Fighting and Psychic", "Immune to: N/A" },
             //Ice
             { "No effect against: N/A", "Not very effective against: Steel, Fire, Water, and Ice", "Super effective against: Flying, Ground, Grass, and Dragon", "Weak to: Fighting, Rock, Steel, and Fire", "Resists: Ice", "Immune to: N/A" },
             //Dragon
