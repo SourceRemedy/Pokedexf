@@ -205,7 +205,7 @@ public class Pokedexf {
             //Water
             { "No effect against: N/A", "Not very effective against: Water, Grass, and Dragon", "Super effective against: Ground, Rock, and Fire", "Weak to: Grass and Electric", "Resists: Steel, Fire, Water, and Ice", "Immune to: N/A" },
             //Grass
-            { "No effect against: N/A", "Not very effective against: Flting, Poison, Bug, Steel, Fire, Grass, and Dragon", "Super effective against: Ground, Rock, and Water", "Weak to: Flying, Poison, Bug, Fire, and Ice", "Resists: Ground, Water, Grass, and Electric", "Immune to: N/A" },
+            { "No effect against: N/A", "Not very effective against: Flying, Poison, Bug, Steel, Fire, Grass, and Dragon", "Super effective against: Ground, Rock, and Water", "Weak to: Flying, Poison, Bug, Fire, and Ice", "Resists: Ground, Water, Grass, and Electric", "Immune to: N/A" },
             //Electric
             { "No effect against: Ground", "Not very effective against: Grass, Electric, and Dragon", "Super effective against: Flying and Water", "Weak to: Ground", "Resists: Flying, Steel, and Electric", "Immune to: N/A" },
             //Psychic
