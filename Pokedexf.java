@@ -1925,7 +1925,10 @@ public class Pokedexf {
             
         }
         
-        
+        if (option.equals("Exit") || option.equals("3")) {
+            System.out.print("Goodbye!");
+            System.exit(0);
+        }
         }
         
  }
